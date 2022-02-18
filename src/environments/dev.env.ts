@@ -5,12 +5,12 @@ export const DevEnvironment: Environment = {
     username: "root",
     password: "",
     host: "localhost",
-    db: "demo_db",
+    db: "anrxdb",
   },
-  img_base_url: '',
-  jwt_secret: 'DEV_SECRET',
-  jwt_expires_in: '30d',
-  imageUploadPath: './src/public/uploads',
+  img_base_url: "",
+  jwt_secret: "DEV_SECRET",
+  jwt_expires_in: "30d",
+  imageUploadPath: "./src/public/uploads",
   mailer_options: {
     host: "smtp.gmail.com",
     port: 465,
@@ -20,5 +20,5 @@ export const DevEnvironment: Environment = {
       pass: "",
     },
   },
-  base_url: "http://localhost:3000"
+  base_url: "http://localhost:3000",
 };
